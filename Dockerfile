@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     ruby-dev \
     ruby
 
-RUN gem install jekyll
+RUN gem install jekyll jekyll-theme-midnight
 
 WORKDIR /apps
 
