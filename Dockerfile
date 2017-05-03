@@ -17,4 +17,4 @@ RUN jekyll build
 
 EXPOSE 4000
 
-CMD ["jekyll", "serve", "/apps", "--host", "0.0.0.0"]
+CMD ["jekyll", "serve", "/apps", "--host", "0.0.0.0", "--drafts"]
