@@ -1,0 +1,4 @@
+site_name: mjohno's Docs
+site_dir: mjohno.github.io
+nav:
+    - Home: index.md
